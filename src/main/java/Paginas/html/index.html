@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f8f8f8;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+            }
+
+            .home-container {
+                text-align: center;
+            }
+
+            .home-title {
+                font-family: 'Times New Roman', serif;
+                font-size: 80px;
+                color: #e74c3c;
+                margin-bottom: 40px;
+            }
+
+            .home-links {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                text-align: center;
+            }
+
+            .home-link {
+                font-size: 24px;
+                color: #3498db;
+                text-decoration: none;
+                margin: 10px;
+                display: inline-block;
+                transition: color 0.3s;
+            }
+
+            .home-link:before {
+                content: '\2022';
+                color: #3498db; 
+                margin-right: 5px;
+            }
+
+            .home-link:hover {
+                color: #2980b9;
+            }
+        </style>
+        <title>Página de Inicio</title>
+    </head>
+    <body>
+        <div class="home-container">
+            <h1 class="home-title">Bienvenido a mi sitio web</h1>
+            <ul class="home-links">
+                <li><a href="http://localhost:8066/quijote" class="home-link">Don Quijote</a></li>
+                <li><a href="http://localhost:8066/formularioGet" class="home-link">Formulario GET</a></li>
+                <li><a href="http://localhost:8066/formularioPost" class="home-link">Formulario POST</a></li>
+                <li><a href="http://localhost:8066/formularioRespuesta" class="home-link">Formulario Respuesta</a></li>
+            </ul>
+
+        </div>
+
+    </body>
+</html>
