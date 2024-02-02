@@ -24,6 +24,7 @@ public class ConexionHTTP {
             while (true) {                
                 Socket skCliente = skServidor.accept();
                 new AtenderCliente(skCliente).start();
+                
             }
         } catch (IOException ex) {
             Logger.getLogger(ConexionHTTP.class.getName()).log(Level.SEVERE, null, ex);

@@ -67,9 +67,6 @@ public class GestorDePaginas {
     public void recogerDatos(String nombre, int numero) {
         this.nombreHTML = nombre;
         this.numeroHTML = numero;
-        System.out.println(numero + " " + nombre);
-        System.out.println(this.nombreHTML + " " + this.numeroHTML);
-        System.out.println(html_Respuesta);
         this.html_Respuesta = "<html>"
                 + "<head>"
                 + "<title>Respuesta</title>"
